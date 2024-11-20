@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página oficial de Lyzen - Creador de contenido y streamer.">
+    <title>Lyzen - Página Oficial</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Raleway', sans-serif; background: linear-gradient(135deg, #FFD700, #000000); color: #fff; line-height: 1.6; position: relative; overflow-x: hidden; }
+        a { text-decoration: none; color: inherit; }
+        header { height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; color: white; position: relative; padding: 20px; }
+        header h1 { font-family: 'Playfair Display', serif; font-size: 3.5rem; text-transform: uppercase; margin-bottom: 20px; letter-spacing: 4px; cursor: pointer; }
+        header p { font-size: 1.5rem; font-weight: 300; letter-spacing: 1.5px; }
+        .cta-buttons { display: flex; justify-content: center; margin-top: 50px; gap: 20px; flex-wrap: wrap; }
+        .cta-buttons a { padding: 15px 30px; border-radius: 30px; font-size: 1.2rem; font-weight: 600; text-transform: uppercase; font-family: 'Raleway', sans-serif; color: white; background: linear-gradient(135deg, #FFD700, #FFA500); box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease; }
+        .cta-buttons a:hover { background: linear-gradient(135deg, #FFA500, #FFD700); transform: translateY(-5px); box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4); }
+        .bio { padding: 80px 20px; background: transparent; color: #fff; text-align: center; }
+        .bio h2 { font-family: 'Playfair Display', serif; font-size: 2.5rem; margin-bottom: 20px; color: #FFD700; }
+        .bio p { font-size: 1.2rem; font-family: 'Raleway', sans-serif; max-width: 900px; margin: 0 auto; line-height: 1.8; color: #fff; }
+        footer { background-color: #141414; color: white; padding: 20px; text-align: center; }
+        footer p { font-size: 0.9rem; color: #999; }
+
+        /* Ajustes para pantallas pequeñas */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem; /* Ajusta el tamaño del nombre para pantallas más pequeñas */
+            }
+            .cta-buttons a {
+                font-size: 1rem; /* Ajusta el tamaño de los botones */
+                padding: 12px 20px;
+            }
+            .bio h2 {
+                font-size: 2rem; /* Ajusta el tamaño del título sobre mí */
+            }
+            .bio p {
+                font-size: 1rem; /* Ajusta el tamaño del texto */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Lyzen</h1>
+    <p>Streamer | Creador de Contenido</p>
+    <div class="cta-buttons">
+        <a href="https://www.twitch.tv/lyzendl" target="_blank">Twitch</a>
+        <a href="https://www.instagram.com/lyzendl/" target="_blank">Instagram</a>
+    </div>
+</header>
+
+<section class="bio">
+    <h2>Sobre mí</h2>
+    <p>¡Bienvenidos a la página oficial de Lyzen! Aquí podrás seguir todas mis transmisiones en vivo, contenido divertido y mucho más. No olvides seguirme en mis redes sociales para estar al tanto de todas mis actividades.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Lyzen. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
